@@ -1,0 +1,150 @@
+/* Definição da cor de fundo para o corpo da página */
+body {
+    background-color: #f8f8f8;
+}
+
+/* Estilos para o cabeçalho da página */
+.header {
+    background-color: #0077be;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilos para o logotipo no cabeçalho */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para o título da página */
+h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Estilos para o menu de navegação */
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Estilos para os links do menu */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Estilos para os links do menu quando passam o mouse sobre eles */
+nav a:hover {
+    color: #0077be;
+}
+
+/* Estilos para o conteúdo principal */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 500px;
+}
+
+/* Estilos para cada item de conteúdo na página */
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Estilos para a imagem em cada item de conteúdo */
+.item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Estilos para a legenda em cada item de conteúdo */
+.legenda {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Estilos para o botão em cada item de conteúdo */
+.botao {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #0077be;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Estilos para o botão em cada item de conteúdo quando passam o mouse sobre ele */
+.botao:hover {
+    background-color: #fff;
+    color: #0077be;
+}
+
+/* Estilos para a seção "Sobre Nós" */
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0077be;
+    color: #fff;
+    padding: 50px 0;
+}
+
+/* Estilos para a imagem na seção "Sobre Nós" */
+#imagem-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+  }
+  
+  #imagem-sobre img {
+    max-width: 100%;
+  }
+  
+  #contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+  }
+  
+  #contato img {
+    max-width: 100%;
+  }
+  
+  #contato p {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #contato p:first-child {
+    margin-top: 20px;
+  }
+  
